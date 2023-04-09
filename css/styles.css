@@ -1,5 +1,18 @@
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
 /* <!-------------------- SECTION HEADER -----------------> */
 .header {
+    background-color: gray;
 }
 .header-nav {
 }
@@ -12,8 +25,26 @@
 .header-item {
 }
 .header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 .header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
